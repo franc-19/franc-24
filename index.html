@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <!--the social media icon library-->
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">FRANC<span>OTIENO</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#languages">Languages</a></li> <!-- Added link to the new section -->
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." /> <!--future implimentation-->
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hi! I am Franc</h1>
+          <span class="auto">A web Developer and a System design</span>
+          <p>
+            Welcome to my portfolio webpage. 
+            Here there are links to my lates works, and also a chanell to comunicate to me directly,
+            using the social media links or the contact form
+          </p>
+          <button>Hire Me</button>
+        </div>
+        <div class="main-two">
+          <img src="./Images/franc.jpg" alt="" 
+          width="300" 
+          height="700"/>
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          you can have a glimps of my work by clicking on the tile buttons below
+          you can also contact me using the social media links in the Websiteor use the feedback form. Thank you.
+        </p>
+        
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>Ec</h3>
+          <p>
+            coming soon
+          </p>
+          <button>coming soon</button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src= "C:\Users\ofran\Desktop\my_portfolio.franc\google search.webp" alt="" />
+          <h3>Google-search-clone</h3>
+          <p>
+            A search clone that that enables one search and access the search content.
+          </p>
+          <div class="container">
+            <a href="https://github.com/franc-19/Google-search-clone" target="_blank">
+              <button>visit</button>
+            </a>
+          </div>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>Techjj</h3>
+          <p>
+            My personal blogsite that i review everything thech from hardware to software and lates tech news
+          </p>
+          <div class="contaner">
+            <a href="https://techjj.co.ke/" target="_blank">
+              <button>visit</button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Franc Otieno</span>
+          <p>
+           I am a freelance web Developer and Designe, bulding both web pages and web apps and also blogsites.
+           I'm currently pursuing a certification in Software Engineering and Software Development at PLP Africa Scholarship.
+          </p>
+          <div class="btns">
+            <a href="/files/blue professional modern CV resume.pdf">
+            <button>Download CV</button>
+            </a>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/About/me2.jpg" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <!-- New Languages Section -->
+      <section class="languages" id="languages">
+        <h1>Languages I Know</h1>
+        <div class="languages-icons flex">
+          <div class="icon">
+            <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="icon">
+            <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="icon">
+            <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" />
+            <p>Java</p>
+          </div>
+          <div class="icon">
+            <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="icon">
+            <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" />
+            <p>Python</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social Media Icons and Links -->
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2024 Franc Otieno.</div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/franc-otieno-673736219/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/qr/WVIVZNP2YXYPJ1"><i class="fa-brands fa-whatsapp"></i></a>
+          <i class="fa-solid fa-phone">0793913540</i>
+          <a href="mailto:ofranc929@gmail.com"><i class="fa-brands fa-gmail"></i></a>
+        </div>
+      </footer>
+    </div>
+    <a href="#" class="top">Back to Top</a> <!--scroll back to top button-->
+  </body>
+</html>
